@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -14,9 +15,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.gson.JsonObject;
 
 import com.ocs.ccell.connect.RetrofitClientInstance;
+import com.ocs.ccell.model.PackageRequest;
 import com.ocs.ccell.model.RegisterRequest;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import retrofit2.Call;
@@ -103,7 +107,7 @@ public class RegisterScreen extends AppCompatActivity {
             startActivity(nextPage);
         });
     }
-    /*private void listPackage() {
+    private void listPackage() {
         Spinner spinnerPackagePick = findViewById(R.id.spinnerPackagePick);
         spinnerPackagePick.setVisibility(View.INVISIBLE);
 
@@ -140,7 +144,7 @@ public class RegisterScreen extends AppCompatActivity {
                 Toast.makeText(RegisterScreen.this, "Hata! " + t.getLocalizedMessage(), Toast.LENGTH_LONG).show();
             }
         });
-    }*/
+    }
 
 
 }
