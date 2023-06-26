@@ -1,0 +1,16 @@
+com\ocs\DGW\LocationGenerator$Location.class
+com\ocs\DGW\OpNumberGenerator$InternetOPs.class
+com\ocs\DGW\OpNumberGenerator$VoiceOPs.class
+com\ocs\Models\Balance.class
+com\ocs\DGW\KafkaProducerApp.class
+com\ocs\DGW\AmountGenerator.class
+com\ocs\DGW\ServiceGenerator.class
+com\ocs\Models\Subscriber.class
+com\ocs\DGW\OpNumberGenerator$SmsOPs.class
+com\ocs\DGW\OpNumberGenerator.class
+com\ocs\DGW\KafkaConsumerApp.class
+com\ocs\DGW\LocationGenerator.class
+com\ocs\DGW\Client.class
+com\ocs\DGW\ServiceGenerator$Service.class
+com\ocs\Models\Package.class
+com\ocs\DataAccess\HibernateUtil.class
